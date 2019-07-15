@@ -1,0 +1,12 @@
+{
+    "plugins": [
+        "ga",
+        "katex"
+    ],
+    "pluginsConfig": {
+        "ga": {
+            "token": "UA-154008-5",
+            "configuration": "auto"
+        }
+    }
+}
