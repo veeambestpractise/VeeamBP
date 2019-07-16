@@ -1,4 +1,5 @@
 # Summary
+
 * [Veeam Backup & Replication Best Practices](README.md)
 * [Contacting Veeam Software](introduction/contacting_veeam_software.md)
 * [DNS Resolution](resource_planning/dns_resolution.md)
@@ -40,6 +41,8 @@
     * [Per VM Backup Files](resource_planning/repository_planning_pervm.md)
     * [Scale-out Backup Repository](resource_planning/repository_sobr.md)
       * [Capacity Tier](resource_planning/repository_sobr_capacity_tier.md)
+  * [Repository HA](repository_ha/repo_ha-WSR/wsr.md)
+  
 * [WAN Acceleration](resource_planning/wan_acceleration.md)
   * [Analyzing Wan Acceleration Workload](resource_planning/Analysing_Wan_Acceleration_Workload.md)
   * [Comparing WAN Acceleration Modes](resource_planning/Comparing_Wan_Acceleration_Modes.md)
