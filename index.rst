@@ -63,12 +63,11 @@ Veeam Best Practice V9.5u4a
     Proxy - Nutanix AHV <resource_planning/proxy_server_nutanix-ahv>
 
 .. toctree::
-   :caption: Primary and Secondary Storage
+   :caption: Primary and Secondary Storage BP
    :titlesonly:
    :maxdepth: 3
 
-	Primary and secondary Storage BPs <README>
-    HPE 3PAR VMs disks considerations <storage_bps/3par_vs_thin-disks>
+	  HPE 3PAR VMs disks considerations <storage_bps/3par_vs_thin-disks>
     DellEMC Data Domain advanced scalability <storage_bps/datadomain_adv-scalability>
 
 .. toctree::
