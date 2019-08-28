@@ -1,6 +1,8 @@
 Welcome to Veeam Backup & Replication Best Practise V9.5u4a
 ===========================================
+.. |date| date::
 
+Last Updated on |date|
 
 
 Veeam Best Practice V9.5u4a
