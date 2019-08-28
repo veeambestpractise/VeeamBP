@@ -13,8 +13,7 @@ Veeam Best Practice V9.5u4a
 
     Veeam Backup & Replication Best Practices <README>
     Introduction <introduction/readme>
-	Veeam Backup & Replication Best Practices <introduction/readme>
-    Contacting Veeam Software <introduction/contacting_veeam_software>
+	Contacting Veeam Software <introduction/contacting_veeam_software>
     DNS Resolution <resource_planning/dns_resolution>
 
 .. toctree::
