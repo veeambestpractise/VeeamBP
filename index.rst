@@ -11,7 +11,7 @@ Veeam Best Practice V9.5u4a
    :titlesonly:
    :maxdepth: 3
 
-    Veeam Backup & Replication Best Practices <README>
+    About Veeam Backup & Replication Best Practices <README>
     Introduction <introduction/readme>
 	Contacting Veeam Software <introduction/contacting_veeam_software>
     DNS Resolution <resource_planning/dns_resolution>
