@@ -234,8 +234,8 @@ Depending on the number of agents deployed it is possible to leverage the same s
 
 Regarding the data transfer, it will benefit of Veeam’s compression only. The deduplication will happen asynchronously, as soon as the backup files will be written on the Data Domain.
 
-The backup repository, that will be created as NAS repository, must be properly set. Veeam provides auto-configuration for all the different kind of supported repositories. However, in this case a general SMB share will be used and all the advanced attributes must be manually set according to the Best Practice guide [recommendations](https://bp.veeam.expert/repository_server/repository_types/repository_type_dedupe#repository-configuration).
+The backup repository, that will be created as NAS repository, must be properly set. Veeam provides auto-configuration for all the different kind of supported repositories. However, in this case a general SMB share will be used and all the advanced attributes must be manually set according to the Best Practice guide [recommendations](https://veeambp.com/repository_server/repository_types/repository_type_dedupe#repository-configuration).
 
-As there is no DDBOOST integration, the suggested backup mode is incremental with Active weekly full. To tune properly backup jobs, follow Veeam’s Best Practice dedicated [section](https://bp.veeam.expert/repository_server/repository_types/repository_type_dedupe#job-configuration).
+As there is no DDBOOST integration, the suggested backup mode is incremental with Active weekly full. To tune properly backup jobs, follow Veeam’s Best Practice dedicated [section](https://veeambp.com/repository_server/repository_types/repository_type_dedupe#job-configuration).
 
 Data Domain uses a single dedupe domain so no matter how many MTree will be used, all the data written into it will be deduplicated globally.
