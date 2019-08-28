@@ -9,31 +9,12 @@ by support, developers and QA departments to ensure highest possible quality. If
 you have any questions or comments, please reach out the authors directly, or
 via your local Veeam Software representative.
 
-{% if output.name == "ebook" %}
-
-As you possess a downloaded version of this e-book, you will notice many references
-to external resources for additional information.
-
-The e-book is optimized for
-digital consumption, and the most recent copy is always available at:
-### [bp.veeam.expert](https://bp.veeam.expert/)
-
-{% else %}
 
 Keep in mind this book is optimized for digital consumption, and the most recent version is always
-available on [bp.veeam.expert](https://bp.veeam.expert/).
-
-The book is available in different formats here:
+available on [Veeambp.com](https://www.veeambp.com/).
 
 
-| Format | Link |
-| -------|------|
-| PDF    | [click here](https://bp.veeam.expert/) |
-| ePub   | [click here](https://bp.veeam.expert/) |
-| Mobi   | [click here](https://bp.veeam.expert/) |
 
-
-{% endif %}
 
 
 ## Intended Audience
