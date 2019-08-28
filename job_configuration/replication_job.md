@@ -104,9 +104,9 @@ Replication bandwidth estimation has always been a challenge, because it depends
 
 Also, when replicating VMs to a remote DR site, you can manage network traffic by applying traffic throttling rules or limiting the number of data transfer connections. See Veeam Backup & Replication User Guide for more information: <https://helpcenter.veeam.com/docs/backup/vsphere/setting_network_traffic_throttling.html?ver=95>.
 
-<<<<<<< HEAD
 **Tip:** Replication can leverage WAN acceleration allowing a more effective use of the link between the source and remote sites. For more information, see the User Guide <https://helpcenter.veeam.com/docs/backup/vsphere/wan_acceleration.html?ver=95> or the present document (the [WAN Acceleration](../resource_planning/wan_acceleration.md) section above).
-=======
+
+
 Also, when replicating VMs to a remote DR site, you can manage network traffic by applying traffic throttling rules or limiting the number of data transfer connections. See Veeam Backup & Replication User Guide for more information: <https://helpcenter.veeam.com/backup/vsphere/setting_network_traffic_throttling.html?ver=95>.
 
 
@@ -123,9 +123,9 @@ In this case, the data communication link should be mostly used for the critical
 
 ![](replication_job_from_backups.png)
 
-<<<<<<< HEAD
 You can find additional information about replica from backup in the appropriate section of the Veeam Backup & Replication User Guide: <https://helpcenter.veeam.com/docs/backup/vsphere/replica_from_backup.html?ver=95>
-=======
+
+
 You can find additional information about replica from backup in the appropriate section of the Veeam Backup & Replication User Guide: <https://helpcenter.veeam.com/backup/vsphere/replica_from_backup.html?ver=95>
 >>>>>>> dev
 
