@@ -29,6 +29,8 @@ release = '1.0.0'
 #Change Master doc to look for index not master_doc
 master_doc = 'index'
 
+SUFFIX = '.rst, .md'
+
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
