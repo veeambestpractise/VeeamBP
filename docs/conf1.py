@@ -31,7 +31,7 @@ release = '1.0.0'
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
 # source_suffix = ['.rst', '.md']
-#source_suffix = '.rst'
+source_suffix = '.rst'
 
 # The encoding of source files.
 #source_encoding = 'utf-8-sig'
@@ -43,12 +43,12 @@ master_doc = 'index'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-#    'sphinx.ext.autodoc',
-#    'sphinx.ext.todo',
-#    'sphinx.ext.coverage',
-#    'sphinx.ext.mathjax',
-#    'sphinx.ext.viewcode',
-#    'sphinx.ext.napoleon'
+    'sphinx.ext.autodoc',
+    'sphinx.ext.todo',
+    'sphinx.ext.coverage',
+    'sphinx.ext.mathjax',
+    'sphinx.ext.viewcode',
+    'sphinx.ext.napoleon'
 ]
 
 
@@ -70,42 +70,42 @@ exclude_patterns = []
 html_theme = "classic"
 
 #Options for the them
-#html_theme_options = {
-#"rightsidebar": False,
+html_theme_options = {
+"rightsidebar": False,
 # (True): Put the sidebar on the right side. Defaults to False.
-#"stickysidebar": True,
+"stickysidebar": True,
 #(true or false): Make the sidebar “fixed” so that it doesn’t scroll out of view for long body content. This may not work well with all browsers. Defaults to False.
-#"collapsiblesidebar": True,
+"collapsiblesidebar": True,
 #(true or false): Add an experimental JavaScript snippet that makes the sidebar collapsible via a button on its side. Defaults to False.
-#"externalrefs": True,
+"externalrefs": True,
 #(true or false): Display external links differently from internal links. Defaults to False.
-#"footerbgcolor": 'white',
+"footerbgcolor": 'white',
 # (CSS color): Background color for the footer line.
-#"footertextcolor ": 'darkslategrey',
+"footertextcolor ": 'darkslategrey',
 #(CSS color): Text color for the footer line.
-#"sidebarbgcolor": 'white',
+"sidebarbgcolor": 'white',
 # (CSS color): Background color for the sidebar.
-#"sidebarbtncolor": 'darkslategrey',
+"sidebarbtncolor": 'darkslategrey',
 #(CSS color): Background color for the sidebar collapse button (used when collapsiblesidebar is True).
-#"sidebartextcolor": 'darkgreen',
+"sidebartextcolor": 'darkgreen',
 #(CSS color): Text color for the sidebar.
-#"sidebarlinkcolor":'green',
+"sidebarlinkcolor":'green',
 #(CSS color): Link color for the sidebar.
-#"relbarbgcolor": 'darkslategrey',
+"relbarbgcolor": 'darkslategrey',
 #(CSS color): Background color for the relation bar.
-#"relbartextcolor": 'white',
+"relbartextcolor": 'white',
 #(CSS color): Text color for the relation bar.
-#"relbarlinkcolor": 'white',
+"relbarlinkcolor": 'white',
 #(CSS color): Link color for the relation bar.
-#"bgcolor": 'white',
+"bgcolor": 'white',
 #(CSS color): Body background color.
-#"textcolor": 'black',
+"textcolor": 'black',
 #(CSS color): Body text color.
-#"linkcolor": 'darkgreen',
+"linkcolor": 'darkgreen',
 #(CSS color): Body link color.
-#"visitedlinkcolor": 'darkgreen',
+"visitedlinkcolor": 'darkgreen',
 #(CSS color): Body color for visited links.
-#"headbgcolor": 'white',
+"headbgcolor": 'white',
 # (CSS color): Background color for headings.
 #headtextcolor (CSS color): Text color for headings.
 #headlinkcolor (CSS color): Link color for headings.
