@@ -27,7 +27,7 @@ release = '1.0.0'
 
 # -- General configuration ---------------------------------------------------
 #Change Master doc to look for index not master_doc
-master_doc = 'index'
+# master_doc = 'index.rst'
 
 
 # Add any Sphinx extension module names here, as strings. They can be
