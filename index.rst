@@ -224,3 +224,11 @@ Veeam Best Practice V9.5u4a
 	Application-aware Image Processing <networking/aaip>
     Enterprise Manager <networking/veeam_backup_enterprise_manager>
     Sizing Summary <resource_planning/Appendix_A_Sizing>
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
