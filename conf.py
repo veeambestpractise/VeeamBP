@@ -38,7 +38,7 @@ source_suffix = {
 }
 
 
-html_logo = 'docs/cover.jpg'
+html_logo = 'docs/logo.jpg'
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
@@ -76,7 +76,7 @@ html_theme_options = {
     # Toc options
     'collapse_navigation': True,
     'sticky_navigation': True,
-    'navigation_depth': 4,
+    'navigation_depth': 3,
     'includehidden': False,
     'titles_only': False
 }
