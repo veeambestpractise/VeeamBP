@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Veeam Best Practise 9.5u4a'
-copyright = '2019, Paul Szelesi'
+copyright = '2019, Veeam Solutions Architects'
 author = 'Paul Szelesi'
 
 # The full version, including alpha/beta/rc tags
@@ -43,7 +43,8 @@ html_logo = 'docs/logo_1.jpg'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['recommonmark']
+extensions = ['recommonmark', 
+"sphinx_rtd_theme",]
 
 
 
@@ -61,6 +62,7 @@ exclude_patterns = []
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
+html_theme_path = ["docs/_themes", ]
 html_theme = "sphinx_rtd_theme"
 
 #Options for the them
@@ -69,7 +71,7 @@ html_theme_options = {
     'analytics_id': 'UA-XXXXXXX-1',  #  Provided by Google in your dashboard
     'logo_only': False,
     'display_version': False,
-    'prev_next_buttons_location': 'bottom',
+    'prev_next_buttons_location': 'top',
     'style_external_links': False,
     'vcs_pageview_mode': '',
     'style_nav_header_background': 'darkslategrey',
