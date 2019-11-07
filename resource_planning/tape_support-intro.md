@@ -57,5 +57,5 @@ It is recommended that you use tape devices with original equipment manufacturer
 For more details and recommendations on configuring vendor-supported tape drives and media changers on ESX/ESXi, refer to VMware documentation at https://kb.vmware.com/s/article/1016407.
 
 
-**Note**:  Veeam Backup & Replication uses the MTF (Microsoft Tape Format) industry format to write data to tape. Veeam Backup & Replication also now supports using WORM (Write Once Read Many) tapes.
+**Note**:  Veeam Backup & Replication uses the MTF (Microsoft Tape Format) industry format to write data to tape. Veeam Backup & Replication also supports using WORM (Write Once Read Many) tapes.
  
