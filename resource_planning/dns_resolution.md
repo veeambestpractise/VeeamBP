@@ -1,3 +1,13 @@
+---
+layout: default
+title: DNS Resolution
+permalink: /
+nav_order: 03
+---
+
+
+
+
 # DNS Resolution
 
 Domain Name System (DNS) resolution is critical for Veeam Backup & Replication deployment (VBR)

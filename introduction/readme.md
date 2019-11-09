@@ -1,3 +1,10 @@
+---
+layout: default
+title: Introduction
+permalink: /
+nav_order: 01
+---
+
 # Introduction
 
 Welcome to the Best Practices guide for Veeam Backup & Replication.

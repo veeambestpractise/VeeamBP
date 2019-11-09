@@ -1,3 +1,11 @@
+---
+layout: default
+title: About
+permalink: /
+nav_order: 02
+---
+
+
 # Contacting Veeam Software
 At Veeam Software we
 value the feedback from our customers. It is important not only to help
