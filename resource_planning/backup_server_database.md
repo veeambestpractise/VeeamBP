@@ -67,8 +67,8 @@ the I/O requirements for the configuration database.
 Veeam Backup & Replication does not require any specific settings[^2] on the SQL Server in order to utilize the capabilities of Veeam Explorer for SharePoint or SQL. Both local and remote SQL Servers can be used for staging purposes, the corresponding requirements are detailed on
 [Veeam Helpcenter](https://www.veeam.com/documentation-guides-datasheets.html) and can be found through the following links:
 
--   [Veeam Explorer for Microsoft SharePoint](https://www.veeam.com/documentation-guides-datasheets.html/docs/backup/explorers/vesp_staging_microsoft_sql_server.html?ver=95)
--   [Veeam Explorer for Microsoft SQL Server](https://www.veeam.com/documentation-guides-datasheets.html/docs/backup/explorers/vesql_systemreqs.html?ver=95)
+-   [Veeam Explorer for Microsoft SharePoint](https://helpcenter.veeam.com/docs/backup/vsphere/restore_vesp.html?ver=95u4)
+-   [Veeam Explorer for Microsoft SQL Server](https://helpcenter.veeam.com/docs/backup/vsphere/restore_vesq.html?ver=95u4)
 
 **Tip:**
 - Enable and configure all features used by production databases.
@@ -85,7 +85,7 @@ Follow Microsoft general recommendations for optimal SQL performance, for exampl
 To modify database connection settings or connect to another Veeam
 configuration database use the `DBConfig` utility as described in
 the product documentation at
-<https://www.veeam.com/documentation-guides-datasheets.html/docs/backup/vsphere/dbconfig_utility.html?ver=95>.
+<https://helpcenter.veeam.com/docs/backup/vsphere/dbconfig_utility.html?ver=95u4>.
 
 If using SQL authentication consider that all Veeam UI and Veeam
 PowerShell changes are communicated using this authentication.
