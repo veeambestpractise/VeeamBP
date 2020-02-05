@@ -168,7 +168,7 @@ to different tape servers. Adding these libraries to the [media pool](https://he
 and enabling parallel processing will distribute the load across multiple
 drives and tape servers.
 
-**Note:** Parallel processing for tape is unavailable for GFS media pools.
+
 
 Install Windows 2012 R2 or above on the tape server for best performance. Use the
 latest Veeam version and patch level as they often contain tape throughput
