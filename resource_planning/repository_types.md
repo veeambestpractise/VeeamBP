@@ -20,11 +20,11 @@ You can consume both layers by setting up a backup copy job from the first to th
 ## Server-Based Repository: DAS or SAN?
 
 ### Direct-Attached Storage (DAS)
-This is an easy, fast and lowcost way to use storage. It is a new approach to use microsegmentation instead of monolithic solutions. The DAS approach is in terms of performance a very fast solution. It can be used as a dedicated system to one Cluster or in a Scale-out Backup Repository. DAS is a normal industry standard x64 server with a bunch of disks attached to it. 
+This is an easy, fast and lowcost way to use storage. It is a new approach to use microsegmentation instead of monolithic solutions. The DAS approach is in terms of performance a very fast solution. It can be used as a dedicated system to one Cluster or in a Scale-out Backup Repository. DAS is a normal industry standard x64 server with a bunch of disks attached to it.
 -   It is recommended to use a performant RAID controller with local battery cache. Be aware of any RAID overhead when designing a DAS soltuion. Typically RAID 6/60 (depends on the amount of disks) is recommended (IO overhead of factor 6). The Stripe Size should be 256KB or greater.
 -   Since a DAS storage can be fully dedicated to backup operations, this type of repository is considered to offer a good balance between “performance” and “cost” factors.
 -   A strong benefit of a DAS repository is that it supports the features offered by Veeam Backup & Replication in a very flexible way. In particular, it provides good read and write performance, sufficient for Veeam vPower-based features (such as Instant VM Recovery, SureBackup, and others). As it typically provides good random I/O performance, it will be the optimal solution when using I/O intensive backup modes such as reverse incremental or forever forward incremental (also used in backup copy job).
--   For scalability you can scale vertical (more disks in an enclosure or additional) and horizontal (more servers, if e.g. the network throuput is reached, the SAS channels are saturated, more IOPS are needed for restore reasons) 
+-   For scalability you can scale vertical (more disks in an enclosure or additional) and horizontal (more servers, if e.g. the network throuput is reached, the SAS channels are saturated, more IOPS are needed for restore reasons)
 
 
 **Tip:** When using Microsoft based repositories, use the RAID controller, to build the RAID set and set the Stripe Size there. Don't us any kind of Software or HBA based RAID Level.
@@ -64,7 +64,7 @@ In general we recommend whenever possible to use physical machines as repositori
 
 ## NTFS or ReFS?
 You can use both filesystems from Microsoft as filesystem for a Veeam Repository. Both filesystems have different behaviour during different backup situations.
- 
+
 ### NTFS:
 When using NTFS please make sure that
 - the volume is formatted with 64KB block size
@@ -81,9 +81,8 @@ When using ReFS please make sure that
 - check https://docs.microsoft.com/en-us/windows-server/storage/refs/refs-overview
 - Configure 256 KB block size on LUNs (Storage or RAID Controller)
 - never bring linked clone space savings into your calculation for required storage space
-- make sure your server has 1 GB RAM per 1 TB used on repository, add additional 8 GB for the Windows Server operating system.
-- „All ReFS supported configurations must use Windows Server Catalog certified hardware” - please contact your hardware vendor
-- Never use any shared LUN concept with ReFS and a Veeam Repository 
+- All ReFS supported configurations must use Windows Server Catalog certified hardware” - please contact your hardware vendor
+- Never use any shared LUN concept with ReFS and a Veeam Repository
 - Check the existing driver version of ReFS. The minimum should start from ReFS.sys 10.0.14393.2097
 - ReFS will flush metadata during synthetic processes to the disk very pushy. These meta data flushes are based on 4KB blocks. Your controller and disk system should be able to handle these OS related system behaviours.
 
