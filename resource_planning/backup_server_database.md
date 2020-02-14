@@ -10,7 +10,7 @@ scale to the size of your infrastructure.
 
 ## SQL Server Edition
 
-Microsoft SQL Server 2012 SP3 Express Edition is included in the Veeam Backup & Replication setup which is a convenient option for most smaller deployments. It does however have several limitations[^1] which may affect performance:
+Microsoft SQL Server 2016 Express Edition is included in the Veeam Backup & Replication setup which is a convenient option for most smaller deployments. It does however have several limitations which may affect performance:
 
 -   Each instance uses only up to 1 GB of RAM
 -   Each instance uses only up to 4 cores of the first CPU
@@ -25,7 +25,6 @@ It is recommended to install Standard or Enterprise Edition if any of the follow
 
 If none of the above apply it is recommended to use Microsoft SQL Server Express Edition for the sake of simplicity.
 
-**Tip:** Veeam Backup & Replication supports Microsoft SQL Server 2008 or higher. To leverage Microsoft SQL Server 2014 enhancements (cardinality estimator has proved to show significant improvements for large queries), it is highly recommended to update the database server to Microsoft SQL Server (Express) 2014 or higher.
 
 ## Database Placement
 It is possible to leverage a remote SQL Server as staging server during restores
