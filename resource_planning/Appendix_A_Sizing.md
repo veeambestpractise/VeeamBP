@@ -70,7 +70,7 @@ Up to 100 |	8CPUs |	16GB RAM
 
 **Note:** Concurrently running jobs include any job type with a continuous schedule such as Backup Copy Jobs.
 When running more than 100 jobs concurrently increase compute resources in line with the table above to meet the resource need of the workload.
-Veeam installation package includes SQL server 2012 Express Edition, the basic limitations of this software are as follows:
+Veeam installation package includes SQL server 2016 Express Edition, the basic limitations of this software are as follows:
 *	Each instance uses only up to 1 GB of RAM
 *	Each instance uses only up to 4 cores of the first CPU
 *	Database size cannot exceed 10 GB
