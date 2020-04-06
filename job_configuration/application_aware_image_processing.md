@@ -68,6 +68,17 @@ For details on network configuration refer to the section "Required ports" below
 | Value | **1** = _try connection through VIX, failover to RPC_ |
 |       |     |
 
+For Veeam 9.x and later the value should also be created on the Guest Interaction Proxy (note that the path is different):
+
+|       |     |
+| ----: | --- |
+| Path  | 'HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Veeam\Veeam Backup and Replication\' |
+| Key   | `InverseVssProtocolOrder` |
+| Type  | REG_DWORD (32-bit) |
+| Value  | **0** = _try connection through RPC, failover to VIX (default)_ |
+| Value | **1** = _try connection through VIX, failover to RPC_ |
+|       |     |
+
 RPC connection means injecting the file via the "ADMIN$" share on the target VM. See Veeam Knowledge Base article at <https://www.veeam.com/kb1230> for more information. Consider that this is a global setting that will be applied on the Veeam backup server level and affects all jobs with application-aware image processing.
 
 ## Guest Access Credentials
